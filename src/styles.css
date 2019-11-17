@@ -1,1 +1,55 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+  box-sizing: border-box;
+}
+html, body { height: 100%; background-color: pink; width:100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.full-card{
+  width: 520px;
+  height: 520px;
+  background :rgba(194, 191, 191, 0.5);
+  top:50%;
+  left:50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+}
+.card-content{
+    margin: 3% 10%;
+}
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  input{
+      color: black;
+  }
+  ::placeholder {
+    color: red;
+  }
+  .example-full-width {
+    width: 100%;
+    
+    
+  }
+  .example-card {
+    max-width: 300px;
+    /* max-height: 330px; */
+  }
+  .example-header-image {
+    background-size: cover;
+  }
+
+  .mat-form-field-label{
+      color: black !important;
+  }
+    .footer{
+        position: relative;
+        bottom: -540px;
+        width:100%;
+        background-color: lightslategray;
+        border:1px solid white;
+        
+    }
+  
