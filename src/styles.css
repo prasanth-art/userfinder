@@ -2,10 +2,10 @@
 *{
   box-sizing: border-box;
 }
-html, body { height: 100%; background-color: pink; width:100%; }
+html, body { height: 100%; background-color: white; width:100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .full-card{
-  width: 520px;
+  width: 540px;
   height: 520px;
   background :rgba(194, 191, 191, 0.5);
   top:50%;
@@ -21,6 +21,10 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     min-width: 150px;
     max-width: 500px;
     width: 100%;
+  }
+  img {
+    width:100%;
+    max-height: 400px;
   }
   input{
       color: black;

@@ -31,6 +31,7 @@ export class UsersComponent implements OnInit {
       this.showspinner = true;
       this.Profile.find(this.name).subscribe(Response => {
         this.res = Response;
+        console.log(this.res);
         localStorage.setItem(this.name, JSON.stringify(this.res));      // setting local storage
         this.imageview = true;
         this.showspinner = false;
